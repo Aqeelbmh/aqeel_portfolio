@@ -50,7 +50,7 @@ window.addEventListener("scroll", highlightActiveSection);
 // Initial call to highlight the active section when the page loads
 document.addEventListener("DOMContentLoaded", highlightActiveSection);
 
-emailjs.init("0p9tpQdy8w4wavvwQ");
+emailjs.init("service_jk998ik");
 document.getElementById("ContactForm").addEventListener("submit", (event) => {
   event.preventDefault();
   const name = document.getElementById("name").value;
@@ -61,7 +61,7 @@ document.getElementById("ContactForm").addEventListener("submit", (event) => {
 
   // Send the email
   emailjs
-    .send("service_0ujky8t", "template_bpdxiwr", {
+    .send("service_jk998ik", "template_shqlqep", {
       name,
       email,
       msg: message,
