@@ -61,7 +61,7 @@ document.getElementById("ContactForm").addEventListener("submit", (event) => {
 
   // Send the email
   emailjs
-    .send("service_jk998ik", "template_shqlqep", {
+    .send("service_jk998ik", "template_ymujvgp", {
       name,
       email,
       msg: message,
